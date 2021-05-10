@@ -9,6 +9,7 @@
     <ProjectReference Include="..\..\Application\AIGProject.Application\AIGProject.Application.csproj" />
     <ProjectReference Include="..\..\Domain\AIGProject.Domain\AIGProject.Domain.csproj" />
     <ProjectReference Include="..\..\Domain\Database\AIGProject.Database\AIGProject.Database.sqlproj" />
+    <ProjectReference Include="..\..\Infrastructure\AIGProject.Infrastructure\AIGProject.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\Services\AIGProject.WcfServiceLibrary\AIGProject.WcfServiceLibrary.csproj" />
   </ItemGroup>
 
