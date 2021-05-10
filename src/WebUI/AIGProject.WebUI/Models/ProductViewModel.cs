@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System;
 
-namespace AIGProject.Domain.Entities
+namespace AIGProject.WebUI.Models
 {
-    public class Product
+    public class ProductViewModel
     {
         public int ProductId { get; set; }
         public string Sku { get; set; }

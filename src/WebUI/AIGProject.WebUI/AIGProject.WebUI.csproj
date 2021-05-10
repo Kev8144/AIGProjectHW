@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\AIGProject.Infrastructure\AIGProject.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Application\AIGProject.Application\AIGProject.Application.csproj" />
+    <ProjectReference Include="..\..\Domain\AIGProject.Domain\AIGProject.Domain.csproj" />
+    <ProjectReference Include="..\..\Domain\Database\AIGProject.Database\AIGProject.Database.sqlproj" />
+    <ProjectReference Include="..\..\Infrastructure\Services\AIGProject.WcfServiceLibrary\AIGProject.WcfServiceLibrary.csproj" />
+  </ItemGroup>
+
 </Project>

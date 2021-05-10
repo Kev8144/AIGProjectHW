@@ -19,4 +19,11 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Infrastructure\" />
+    <Folder Include="WebUI\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Application\" />
+  </ItemGroup>
+
 </Project>
