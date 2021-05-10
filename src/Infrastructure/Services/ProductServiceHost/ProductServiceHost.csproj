@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Domain\AIGProject.Domain\AIGProject.Domain.csproj" />
+    <ProjectReference Include="..\AIGProject.WcfServiceLibrary\WcfServiceLibrary.csproj" />
+  </ItemGroup>
+
+</Project>

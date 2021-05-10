@@ -15,7 +15,7 @@ namespace AIGProject.Infrastructure.Data.Repository
         public ProductRepository(IConfiguration configuration, ILogger<ProductRepository> logger)
             : base(configuration, logger)
         {
-            _logger = logger;
+            _logger = logger; 
         }
 
         public void Add(Product product)

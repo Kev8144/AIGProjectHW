@@ -5,12 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\AIGProject.Infrastructure\AIGProject.Infrastructure.csproj" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
     <ProjectReference Include="..\..\Application\AIGProject.Application\AIGProject.Application.csproj" />
     <ProjectReference Include="..\..\Domain\AIGProject.Domain\AIGProject.Domain.csproj" />
     <ProjectReference Include="..\..\Domain\Database\AIGProject.Database\AIGProject.Database.sqlproj" />
     <ProjectReference Include="..\..\Infrastructure\AIGProject.Infrastructure\AIGProject.Infrastructure.csproj" />
-    <ProjectReference Include="..\..\Infrastructure\Services\AIGProject.WcfServiceLibrary\AIGProject.WcfServiceLibrary.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Services\AIGProject.WcfServiceLibrary\WcfServiceLibrary.csproj" />
   </ItemGroup>
 
 </Project>
